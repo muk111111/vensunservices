@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061A2E"/>
+      <stop offset="0.55" stop-color="#0A2540"/>
+      <stop offset="1" stop-color="#0F62CB"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g opacity="0.10" fill="none" stroke="#ffffff" stroke-width="2">
+    <path d="M760 470h180V330L850 275 760 330v140Z"/>
+    <path d="M820 470v-70h60v70"/>
+    <path d="M980 470h120v-90h-120z"/>
+    <path d="M640 470h80v-50h-80z"/>
+  </g>
+  <g transform="translate(96 240)">
+    <rect width="72" height="72" rx="16" fill="#ffffff"/>
+    <path d="M17 22h10l9 22.5L45 22h10L41 56h-9L17 22Z" fill="#0A2540"/>
+  </g>
+  <text x="196" y="292" font-family="Helvetica, Arial, sans-serif" font-size="44" font-weight="bold" fill="#ffffff" letter-spacing="6">VENSUN</text>
+  <text x="196" y="330" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#8FBDF5" letter-spacing="5">GLOBAL SERVICES</text>
+  <text x="96" y="420" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="bold" fill="#ffffff">Integrated Supply Chain &amp; Business Services</text>
+  <text x="96" y="472" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#C9DCF5">Your Supply Chain. One Reliable Partner.</text>
+</svg>
