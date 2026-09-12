@@ -7,9 +7,9 @@ Built to be hosted on GitHub Pages at **https://vensunservices.com** (no `github
 
 | File | Page |
 |---|---|
-| `index.html` | Home — hero, capability strip, intro, 8 services, how we work, industries, why Vensun, CTA |
+| `index.html` | Home &mdash; served at `/` — hero, capability strip, intro, 8 services, how we work, industries, why Vensun, CTA |
 | `about.html` | About Us — who we are, vision / mission / approach, values, capabilities |
-| `services.html` | Services — all 8 service lines in detail (anchors: `#trading`, `#packaging`, `#manpower`, `#logistics`, `#warehousing`, `#fulfilment`, `#infrastructure`, `#supply-chain`) |
+| `services.html` | Services — all 8 service lines in detail (served at `/services`; anchors: `#trading`, `#packaging`, `#manpower`, `#logistics`, `#warehousing`, `#fulfilment`, `#infrastructure`, `#supply-chain`) |
 | `industries.html` | Industries We Serve — 8 industry cards |
 | `why-vensun.html` | Why Vensun — 6 differentiators + process flow |
 | `contact.html` | Contact Us — enquiry form + phone / email / address / business hours |
@@ -45,9 +45,29 @@ To use your own photos instead: drop the files into `assets/img/` and change the
 ## Local preview
 
 ```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
+python3 serve.py        # http://localhost:8000
 ```
+
+Use `serve.py`, not `python3 -m http.server`. The site uses extensionless URLs (`/about`, not
+`/about.html`), which GitHub Pages resolves automatically but the stock Python server does not —
+`serve.py` reproduces that behaviour, and also serves `404.html` for unknown paths.
+
+## URLs
+
+Pages are linked without the `.html` extension and with root-relative paths:
+
+| Page | URL |
+|---|---|
+| Home | `/` |
+| About Us | `/about` |
+| Services | `/services` |
+| Industries | `/industries` |
+| Why Vensun | `/why-vensun` |
+| Contact Us | `/contact` |
+
+The `.html` URLs still work (GitHub Pages serves both), so any link already shared stays valid.
+Each page's `<link rel="canonical">` points at the extensionless form, which is what search
+engines will index.
 
 ## Hosting (GitHub Pages + custom domain)
 
