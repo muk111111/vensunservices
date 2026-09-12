@@ -23,16 +23,15 @@ link or a phone number, update it in all pages.
 
 ## Things to fill in before going live
 
-These are placeholders — search and replace across all files:
+Live details are already in place: phone **+91 93202 62727**, WhatsApp **919320262727**,
+email **admin@vensunservices.com**.
 
-1. **Phone** — `+91 00000 00000` and the link `tel:+910000000000` (footer + contact page).
-2. **WhatsApp number** — `WHATSAPP_NUMBER` at the top of `assets/js/form.js`, and the two
-   `https://wa.me/910000000000` links in `contact.html`. Format: country code + number, digits only.
-3. **Email** — `info@vensunservices.com`.
-4. **Office address** — `Corporate Office Address Line 1 / Area, City, State — PIN Code` in `contact.html`
-   and the footer of every page.
-5. **Business hours** — currently `Mon – Sat: 9:30 AM – 6:30 PM`.
-6. **Organization schema** — address/phone block at the bottom of `index.html` (JSON-LD).
+Still a placeholder — search and replace across all files when you have it:
+
+1. **Office address** — `Corporate Office Address Line 1 / Area, City, State — PIN Code` in `contact.html`
+   and in the footer of every page, plus the `address` block in the Organization JSON-LD at the bottom
+   of `index.html` (including `"postalCode": "000000"`).
+2. **Business hours** — currently `Mon – Sat: 9:30 AM – 6:30 PM`, change if different.
 
 ## Photography
 
@@ -67,7 +66,7 @@ python3 -m http.server 8000
    | A | `@` | `185.199.109.153` |
    | A | `@` | `185.199.110.153` |
    | A | `@` | `185.199.111.153` |
-   | CNAME | `www` | `<github-username>.github.io` |
+   | CNAME | `www` | `muk111111.github.io` |
 
    The `CNAME` file in this repo already contains `vensunservices.com`, which is what makes the site
    answer on the custom domain instead of `<username>.github.io`. Don't delete it.

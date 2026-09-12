@@ -10,8 +10,8 @@
 (function () {
   "use strict";
 
-  var WHATSAPP_NUMBER = "910000000000";
-  var FALLBACK_EMAIL = "info@vensunservices.com";
+  var WHATSAPP_NUMBER = "919320262727";
+  var FALLBACK_EMAIL = "admin@vensunservices.com";
 
   var form = document.getElementById("enquiry-form");
   if (!form) return;
