@@ -1,4 +1,4 @@
-/* Vensun Global Services — enquiry form (WhatsApp delivery)
+/* Vensun Group — enquiry form (WhatsApp delivery)
    ---------------------------------------------------------------
    The site is fully static, so the enquiry form does not post to a
    server. On submit it builds a formatted message and opens WhatsApp
@@ -26,7 +26,7 @@
   }
 
   function buildMessage(data) {
-    var lines = ["*New Business Enquiry — Vensun Global Services*", ""];
+    var lines = ["*New Business Enquiry — Vensun Group*", ""];
     data.forEach(function (value, key) {
       if (key.charAt(0) === "_") return;
       if (String(value).trim() === "") return;

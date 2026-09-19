@@ -1,17 +1,17 @@
-# Vensun Global Services — Corporate Website
+# Vensun Group — Corporate Website
 
-Static, dependency-free website for **Vensun Global Services** — *Your Supply Chain. One Reliable Partner.*
+Static, dependency-free website for **Vensun Group** — *Your Supply Chain. One Reliable Partner.*
 Built to be hosted on GitHub Pages at **https://vensunservices.com** (no `github.io` in the URL).
 
 ## Pages
 
 | File | Page |
 |---|---|
-| `index.html` | Home &mdash; served at `/` — hero, capability strip, intro, 8 services, how we work, industries, why Vensun, CTA |
+| `index.html` | Home &mdash; served at `/` — hero, capability strip, intro, 8 services, how we work, industries, why Vensun Group, CTA |
 | `about.html` | About Us — who we are, vision / mission / approach, values, capabilities |
 | `services.html` | Services — all 8 service lines in detail (served at `/services`; anchors: `#trading`, `#packaging`, `#manpower`, `#logistics`, `#warehousing`, `#fulfilment`, `#infrastructure`, `#supply-chain`) |
 | `industries.html` | Industries We Serve — 8 industry cards |
-| `why-vensun.html` | Why Vensun — 6 differentiators + process flow |
+| `why-vensun.html` | Why Vensun Group — 6 differentiators + process flow |
 | `contact.html` | Contact Us — enquiry form + phone / email / address / business hours |
 | `404.html` | Not-found page (served automatically by GitHub Pages) |
 
@@ -62,7 +62,7 @@ Pages are linked without the `.html` extension and with root-relative paths:
 | About Us | `/about` |
 | Services | `/services` |
 | Industries | `/industries` |
-| Why Vensun | `/why-vensun` |
+| Why Vensun Group | `/why-vensun` |
 | Contact Us | `/contact` |
 
 The `.html` URLs still work (GitHub Pages serves both), so any link already shared stays valid.

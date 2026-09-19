@@ -1,4 +1,4 @@
-/* Vensun Global Services — minimal site interactions */
+/* Vensun Group — minimal site interactions */
 (function () {
   "use strict";
 
