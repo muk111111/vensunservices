@@ -128,7 +128,7 @@ p:last-child{margin-bottom:0}
 .brand-mark{width:40px;height:40px;flex-shrink:0}
 .brand-text{display:flex;flex-direction:column;line-height:1.1}
 .brand-name{font-family:var(--font-head);font-weight:800;font-size:1.0625rem;color:var(--navy-800);letter-spacing:-.02em}
-.brand-sub{font-size:.6875rem;letter-spacing:.1em;text-transform:uppercase;color:var(--slate-light);font-weight:500}
+.brand-sub{font-size:.875rem;letter-spacing:.155em;text-transform:uppercase;color:var(--slate-light);font-weight:600}
 
 .nav{display:flex;align-items:center;gap:30px}
 .nav a{
