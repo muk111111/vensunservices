@@ -10,6 +10,8 @@
   --blue-600:#0F62CB;
   --blue-700:#0B4EA6;
   --blue-050:#EAF2FD;
+  --red-600:#D92D20;
+  --red-400:#FF6B5A;
   --ink:#13253A;
   --slate:#556478;
   --slate-light:#7C8899;
@@ -128,7 +130,7 @@ p:last-child{margin-bottom:0}
 .brand-mark{width:40px;height:40px;flex-shrink:0}
 .brand-text{display:flex;flex-direction:column;line-height:1.1}
 .brand-name{font-family:var(--font-head);font-weight:800;font-size:1.0625rem;color:var(--navy-800);letter-spacing:-.02em}
-.brand-sub{font-size:.875rem;letter-spacing:.155em;text-transform:uppercase;color:var(--slate-light);font-weight:600}
+.brand-sub{font-size:.875rem;letter-spacing:.155em;text-transform:uppercase;color:var(--red-600);font-weight:600}
 
 .nav{display:flex;align-items:center;gap:30px}
 .nav a{
@@ -341,7 +343,7 @@ p:last-child{margin-bottom:0}
 .site-footer{background:var(--navy-900);color:rgba(255,255,255,.7);padding-block:clamp(48px,6vw,72px) 0}
 .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:clamp(28px,4vw,48px)}
 .footer-brand .brand-name{color:#fff}
-.footer-brand .brand-sub{color:rgba(255,255,255,.5)}
+.footer-brand .brand-sub{color:var(--red-400)}
 .footer-tag{font-family:var(--font-head);font-weight:600;color:#8FBDF5;font-size:.9375rem;margin:18px 0 12px}
 .footer-about{font-size:.9rem;color:rgba(255,255,255,.6);max-width:38ch}
 .footer-col h4{color:#fff;font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px;font-weight:700}
