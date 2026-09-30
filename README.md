@@ -16,7 +16,8 @@ Built to be hosted on GitHub Pages at **https://vensunservices.com** (no `github
 | `404.html` | Not-found page (served automatically by GitHub Pages) |
 
 Supporting files: `assets/css/styles.css`, `assets/js/main.js` (nav + reveal), `assets/js/form.js` (enquiry form),
-`assets/img/favicon.svg`, `assets/img/og-image.svg`, `sitemap.xml`, `robots.txt`, `CNAME`, `.nojekyll`.
+`assets/img/logo*.png` (brand logo — `logo.png` in the header, `logo-white.png` in the footer),
+`assets/img/favicon-*.png`, `apple-touch-icon.png`, `icon-512.png`, `og-image.png` (social share image), `sitemap.xml`, `robots.txt`, `CNAME`, `.nojekyll`.
 
 Header and footer markup is repeated in each HTML file (plain static site, no build step) — if you change a nav
 link or a phone number, update it in all pages.

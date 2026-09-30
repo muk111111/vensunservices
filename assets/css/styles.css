@@ -124,13 +124,11 @@ p:last-child{margin-bottom:0}
   backdrop-filter:saturate(1.4) blur(8px);
   border-bottom:1px solid var(--line);
 }
-.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:76px}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:96px}
 .brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
 .brand:hover{color:inherit}
-.brand-mark{width:40px;height:40px;flex-shrink:0}
-.brand-text{display:flex;flex-direction:column;line-height:1.1}
-.brand-name{font-family:var(--font-head);font-weight:800;font-size:1.0625rem;color:var(--navy-800);letter-spacing:-.02em}
-.brand-sub{font-size:.875rem;letter-spacing:.155em;text-transform:uppercase;color:var(--red-600);font-weight:600}
+.brand-logo{display:block;height:76px;width:auto}
+.brand-logo--footer{height:auto;width:100%;max-width:260px}
 
 .nav{display:flex;align-items:center;gap:30px}
 .nav a{
@@ -342,8 +340,6 @@ p:last-child{margin-bottom:0}
 /* ---------- Footer ---------- */
 .site-footer{background:var(--navy-900);color:rgba(255,255,255,.7);padding-block:clamp(48px,6vw,72px) 0}
 .footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1.2fr;gap:clamp(28px,4vw,48px)}
-.footer-brand .brand-name{color:#fff}
-.footer-brand .brand-sub{color:var(--red-400)}
 .footer-tag{font-family:var(--font-head);font-weight:600;color:#8FBDF5;font-size:.9375rem;margin:18px 0 12px}
 .footer-about{font-size:.9rem;color:rgba(255,255,255,.6);max-width:38ch}
 .footer-col h4{color:#fff;font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:18px;font-weight:700}
@@ -384,6 +380,10 @@ p:last-child{margin-bottom:0}
   .footer-grid{grid-template-columns:1.4fr 1fr 1fr}
   .footer-contact-col{grid-column:1/-1}
 }
+@media (max-width:1180px) and (min-width:941px){
+  .brand-logo{height:64px}
+  .nav{gap:20px}
+}
 @media (max-width:940px){
   .nav-toggle{display:flex}
   .nav{
@@ -420,6 +420,8 @@ p:last-child{margin-bottom:0}
   .btn-row{gap:12px}
   .hero-inner{padding-block:64px}
   .card{padding:24px 20px}
+  .brand-logo{height:60px}
+  .header-inner{min-height:80px}
   .footer-grid{grid-template-columns:1fr}
   .footer-bottom{justify-content:flex-start}
 }
